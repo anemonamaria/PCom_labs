@@ -1,0 +1,20 @@
+Echipa:
+Toma Stefan Madalin
+Moraru Anemona
+Arvat Ovidiu Daniel
+
+send.c:
+	- ne-am asigurat ca putem deschide fisierul
+	- am pozitionat cursorul la inceputul fisierului
+	- am citit din fisier maxim 1400 de octeti
+	- ne-am asigurat ca octetii cititi sunt valizi
+	- am transmis mesajul citit reciever-ului, asteptand mai apoi un raspuns
+	- am verificat daca raspunul este "EOT", caz in care am oprit citirea
+	- am trimis "EOF", pentru a anunta receptorul ca am ajuns la finalul fisierului
+	- ne-am asigurat ca putem inchide fisierul
+recv.c:
+	- ne-am asigurat ca putem deschide fisierul
+	- am verificat daca mesajul primit este "EOF", caz in care trimitem "EOT"
+	- scriem in fisier mesajul primit
+	- trimitem emitatorului "ACK", adica ii transmitem ca am receptionat mesajul
+	- ne-am asigurat ca putem inchide fisierul
