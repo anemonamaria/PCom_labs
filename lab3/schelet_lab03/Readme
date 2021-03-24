@@ -1,0 +1,9 @@
+echipa Ciuculan Maria-Cristiana && Moraru Anemona-Maria
+
+- am calculat w dupa formula WINDOW_SIZE = (bandwidth * delay * 1000) / (sizeof(FRAME) * 8)
+folosind primul argument al apelului functiei.
+w = numarul de frame-uri pe care sender-ul poate sa le trimita pana primeste ack
+win = vector de mesaje pe care le trimite sender-ul
+- asteptam mai intai sa se ajunga la w cadre pentru a putea primi ack-uri
+-dupa ce trecem de w pana ajunge la count dupa fiecare semnal trimis vom primi un ack
+-recv nu este modificat

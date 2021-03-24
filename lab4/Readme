@@ -1,0 +1,9 @@
+Echipa Ciuculan Maria-Cristiana si Moraru Anemona-Maria
+323CC
+
+-cautam cea mai buna cale din rtable si cea mai buna intrare arp pentru ip-ul dat.
+-in main:
+	-verificam daca pachetul este complet folosind ip_checksum
+	-cautam cea mai buna ruta cu functia de la todo1 penrtu ip-ul nostru
+	-actualizam ttl-ul daca este mai mare decat 1
+	-trimitem packet-ul
