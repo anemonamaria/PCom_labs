@@ -1,0 +1,58 @@
+dig A single-v4.protocoale.club 
+;; ANSWER SECTION:
+single-v4.protocoale.club. 300  IN      A       127.0.0.1
+
+
+dig AAAA single-v6.protocoale.club 
+;; ANSWER SECTION:
+single-v6.protocoale.club. 300  IN      AAAA    ::1
+
+
+dig MX protocoale.club
+;; ANSWER SECTION:
+protocoale.club.        300     IN      MX      20 alt2.gmail-smtp-in.l.google.com.
+protocoale.club.        300     IN      MX      10 alt1.gmail-smtp-in.l.google.com.
+protocoale.club.        300     IN      MX      30 alt3.gmail-smtp-in.l.google.com.
+
+dig A single.protocoale.club
+;; ANSWER SECTION:
+single.protocoale.club. 300     IN      A       127.0.0.1
+
+dig AAAA single.protocoale.club
+;; ANSWER SECTION:
+single.protocoale.club. 300     IN      AAAA    ::1
+
+dig NS dorinel.protocoale.club
+;; ANSWER SECTION:
+dorinel.protocoale.club. 229    IN      NS      potato.dfilip.xyz.
+
+dig A multi-v4.protocoale.club
+;; ANSWER SECTION:
+multi-v4.protocoale.club. 300   IN      A       127.1.1.1
+multi-v4.protocoale.club. 300   IN      A       127.4.4.4
+multi-v4.protocoale.club. 300   IN      A       127.2.2.2
+multi-v4.protocoale.club. 300   IN      A       127.3.3.3
+
+dig AAAA multi-v6.protocoale.club
+;; ANSWER SECTION:
+multi-v6.protocoale.club. 300   IN      AAAA    ::4
+multi-v6.protocoale.club. 300   IN      AAAA    ::2
+multi-v6.protocoale.club. 300   IN      AAAA    ::1
+multi-v6.protocoale.club. 300   IN      AAAA    ::3
+
+ dig A multi.protocoale.club
+;; ANSWER SECTION:
+multi.protocoale.club.  300     IN      A       127.3.3.3
+multi.protocoale.club.  300     IN      A       127.1.1.1
+multi.protocoale.club.  300     IN      A       127.2.2.2
+multi.protocoale.club.  300     IN      A       127.4.4.4
+
+ dig CNAME pc.protocoale.club
+;; ANSWER SECTION:
+pc.protocoale.club.     300     IN      CNAME   pcom.protocoale.club.
+
+dig MX protocoale.club
+;; ANSWER SECTION:
+protocoale.club.        300     IN      MX      10 alt1.gmail-smtp-in.l.google.com.
+protocoale.club.        300     IN      MX      20 alt2.gmail-smtp-in.l.google.com.
+protocoale.club.        300     IN      MX      30 alt3.gmail-smtp-in.l.google.com.
