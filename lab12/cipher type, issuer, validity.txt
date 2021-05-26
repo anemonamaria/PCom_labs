@@ -1,0 +1,20 @@
+cipher type:             
+            Public Key Algorithm: id-ecPublicKey
+
+Issuer: C = US, O = Google Trust Services, CN = GTS CA 1O1
+
+
+ Validity
+            Not Before: May  3 09:02:30 2021 GMT
+            Not After : Jul 26 09:02:29 2021 GMT
+
+ Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:f7:f7:de:4d:af:d6:b4:ca:b5:49:1f:df:90:71:
+                    cd:f6:cb:b7:fd:7a:d9:db:39:e4:93:68:2c:9d:55:
+                    fb:1f:30:4e:75:e0:ef:58:29:4c:ac:66:3e:02:63:
+                    f5:e2:3f:bc:2c:e1:55:3d:ae:d8:54:95:84:03:7c:
+                    3f:7b:d5:2f:25
+
